@@ -111,6 +111,31 @@
          </layout>
         </item>
         <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Graphics API</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="graphics_api_combobox">
+            <item>
+             <property name="text">
+              <string>OpenGL</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>DirectX 12</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
          <layout class="QHBoxLayout" name="horizontalLayout_6">
           <item>
            <widget class="QLabel" name="bg_label">
