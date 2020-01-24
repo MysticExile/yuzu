@@ -52,3 +52,6 @@
 [submodule "zlib"]
     path = externals/zlib/zlib
     url = https://github.com/madler/zlib.git
+[submodule "externals/fiber"]
+	path = externals/fiber
+	url = https://github.com/boostorg/fiber.git
